@@ -38,12 +38,6 @@ npm run lint:fix
 
 Cada kata vive en `src/<categoria>/<NN-nombre-kata>/` y contiene:
 
-```mermaid
-graph LR
-    "README.md (enunciado)" --> "solution.ts (implementacion)"
-    "solution.ts" --> "solution.test.ts (tests con vitest)"
-```
-
 - `README.md`: enunciado del problema (descripción, ejemplos, restricciones).
 - `solution.ts` (o `solution-a.ts` / `solution-b.ts` si hay varias variantes): implementación.
 - `solution.test.ts`: tests correspondientes.
