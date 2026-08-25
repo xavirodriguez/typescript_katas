@@ -1,4 +1,13 @@
-# Snail Traversal
+# 2624. Snail Traversal
+
+**Difficulty**: Medium
+**Topics**: JavaScript, Array, Matrix
+
+
+---
+
+
+## Problem Statement
 
 Write code that enhances all arrays such that you can call the snail(rowsCount, colsCount) method that transforms the 1D array into a 2D array organised in the pattern known as snail traversal order. Invalid input values should output an empty array. If rowsCount \* colsCount !== nums.length, the input is considered invalid.
 
@@ -42,3 +51,21 @@ Explanation: 2 multiplied by 2 is 4, and the original array [1,3] has a length o
     1 <= nums[i] <= 1000
     1 <= rowsCount <= 250
     1 <= colsCount <= 250
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(rowsCount * colsCount)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

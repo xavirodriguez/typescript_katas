@@ -1,4 +1,13 @@
-# Array Reduce Transformation
+# 2626. Array Reduce Transformation
+
+**Difficulty**: Easy
+**Topics**: JavaScript
+
+
+---
+
+
+## Problem Statement
 
 Given an integer array nums, a reducer function fn, and an initial value init, return the final result obtained by executing the fn function on each element of the array, sequentially, passing in the return value from the calculation on the preceding element.
 
@@ -65,7 +74,9 @@ init = 25
 **Explanation:**
 For empty arrays, the answer is always init.
 
+
 ---
+
 
 ### Constraints:
 
@@ -73,4 +84,20 @@ For empty arrays, the answer is always init.
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
 
+
 ---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

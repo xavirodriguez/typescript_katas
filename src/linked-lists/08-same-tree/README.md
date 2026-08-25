@@ -1,4 +1,13 @@
-# Same Tree
+# 100. Same Tree
+
+**Difficulty**: Easy
+**Topics**: Tree, Depth-First Search, Binary Tree
+
+
+---
+
+
+## Problem Statement
 
 ## Descripción del Problema
 
@@ -66,3 +75,21 @@ Output: false
 
 - El número de nodos en ambos árboles está en el rango `[0, 100]`
 - `-10^4 <= Node.val <= 10^4`
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(h)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

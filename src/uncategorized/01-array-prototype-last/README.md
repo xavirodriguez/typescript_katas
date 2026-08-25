@@ -1,4 +1,13 @@
-# Array Prototype Last
+# 2619. Array Prototype Last
+
+**Difficulty**: Easy
+**Topics**: JavaScript
+
+
+---
+
+
+## Problem Statement
 
 ## Description
 
@@ -6,7 +15,9 @@ Write code that enhances all arrays such that you can call the `array.last()` me
 
 You may assume the array is the output of `JSON.parse`.
 
+
 ---
+
 
 ### Example 1:
 
@@ -23,7 +34,9 @@ nums = [null, {}, 3]
 **Explanation:**
 Calling `nums.last()` should return the last element: 3.
 
+
 ---
+
 
 ### Example 2:
 
@@ -40,10 +53,29 @@ nums = []
 **Explanation:**
 Because there are no elements, return -1.
 
+
 ---
+
 
 ### Constraints:
 
 *   `arr` is a valid JSON array
 *   `0 <= arr.length <= 1000`
 
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

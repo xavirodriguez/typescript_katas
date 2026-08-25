@@ -7,6 +7,7 @@
 - [¿Por qué este repo?](#por-qué-este-repo)
 - [Quickstart](#quickstart)
 - [Estructura de una kata](#estructura-de-una-kata)
+- [Formato estándar del README de kata](#formato-estándar-del-readme-de-kata)
 - [Índice de katas](#índice-de-katas)
 - [Cómo añadir una nueva kata](#cómo-añadir-una-nueva-kata)
 - [Licencia](#licencia)
@@ -38,14 +39,48 @@ npm run lint:fix
 
 Cada kata vive en `src/<categoria>/<NN-nombre-kata>/` y contiene:
 
-- `README.md`: enunciado del problema (descripción, ejemplos, restricciones).
+- `README.md`: enunciado del problema (metadatos, descripción, ejemplos, restricciones, complejidad esperada y enlaces a solución/tests).
 - `solution.ts` (o `solution-a.ts` / `solution-b.ts` si hay varias variantes): implementación.
 - `solution.test.ts`: tests correspondientes.
+
+## Formato estándar del README de kata
+
+Para mantener la consistencia entre todos los ejercicios, cada `README.md` de kata sigue la siguiente plantilla estructurada:
+
+```markdown
+# <Número LeetCode si aplica>. <Título>
+
+**Difficulty**: <Easy|Medium|Hard>
+**Topics**: <Técnica 1>, <Técnica 2>
+
+---
+
+## Problem Statement
+...
+## Examples
+...
+## Constraints
+...
+
+---
+
+## Complexity
+
+- **Time Complexity**: O(...)
+- **Space Complexity**: O(...)
+
+---
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)
+```
 
 ## Cómo añadir una nueva kata
 
 1. Crea una carpeta `src/<categoria>/<NN-nombre-kata>/`.
-2. Añade `README.md` con el enunciado (descripción, ejemplos, restricciones).
+2. Añade `README.md` siguiendo el [formato estándar](#formato-estándar-del-readme-de-kata).
 3. Implementa la solución en `solution.ts`.
 4. Añade los tests en `solution.test.ts`.
 5. Corre `npm run test` y `npm run typecheck` antes de dar por terminada la kata.

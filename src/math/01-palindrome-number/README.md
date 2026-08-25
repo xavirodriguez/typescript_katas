@@ -1,4 +1,13 @@
-# Palindrome Number
+# 9. Palindrome Number
+
+**Difficulty**: Easy
+**Topics**: Math
+
+
+---
+
+
+## Problem Statement
 
 Given an integer x, return true if x is a, and false otherwise.
 
@@ -25,3 +34,21 @@ Constraints:
     -231 <= x <= 231 - 1
 
 Follow up: Could you solve it without converting the integer to a string?
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(log10(n))
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

@@ -1,4 +1,13 @@
-# Sleep
+# 2621. Sleep
+
+**Difficulty**: Easy
+**Topics**: JavaScript, Promise
+
+
+---
+
+
+## Problem Statement
 
 Dada un entero positivo `millis`, escribe una función asíncrona que se detenga durante `millis` milisegundos. Puede resolver con cualquier valor.
 
@@ -23,13 +32,17 @@ sleep(100).then(() => {
 **Output:** `200`
 **Explicación:** Debería devolver una promesa que se resuelve después de 200ms.
 
+
 ---
+
 
 ### Restricciones:
 
 - `1 <= millis <= 1000`
 
+
 ---
+
 
 ## Solución en TypeScript
 
@@ -83,3 +96,21 @@ function sleepWithoutAsync(millis: number): Promise<void> {
 ```
 
 Ambas soluciones son correctas y cumplen con los requisitos del problema. La primera (`async`/`await`) suele ser preferida por su legibilidad en contextos asíncronos más complejos.
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

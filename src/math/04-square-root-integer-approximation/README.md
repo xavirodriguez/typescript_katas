@@ -1,4 +1,13 @@
-# Square Root — Integer Approximation
+# 69. Sqrt(x)
+
+**Difficulty**: Easy
+**Topics**: Math, Binary Search
+
+
+---
+
+
+## Problem Statement
 
 ## Statement
 
@@ -35,3 +44,21 @@ Avoid using:
 - Reinforce binary search and edge case handling.
 - Improve problem-solving under constraints.
 - Practice writing clean and efficient integer logic.
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(log x)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

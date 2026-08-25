@@ -1,4 +1,13 @@
-# Function Composition
+# 2629. Function Composition
+
+**Difficulty**: Easy
+**Topics**: JavaScript
+
+
+---
+
+
+## Problem Statement
 
 Given an array of functions [f1, f2, f3, ..., fn], return a new function fn that is the function composition of the array of functions.
 
@@ -65,7 +74,9 @@ init = 25
 **Explanation:**
 For empty arrays, the answer is always init.
 
+
 ---
+
 
 ### Constraints:
 
@@ -73,4 +84,20 @@ For empty arrays, the answer is always init.
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
 
+
 ---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

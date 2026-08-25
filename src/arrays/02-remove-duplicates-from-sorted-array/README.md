@@ -1,4 +1,13 @@
-# 🧹 Remove Duplicates from Sorted Array
+# 26. Remove Duplicates from Sorted Array
+
+**Difficulty**: Easy
+**Topics**: Array, Two Pointers
+
+
+---
+
+
+## Problem Statement
 
 ## 📘 Description
 
@@ -11,7 +20,9 @@ Given a **sorted** integer array `nums` in **non-decreasing order**, your task i
 > Only the first `k` elements of `nums` will be valid after the operation.  
 > Elements beyond `k` can be ignored and can hold any value.
 
+
 ---
+
 
 ## ✅ Requirements
 
@@ -20,7 +31,9 @@ To successfully pass the test, your solution must:
 1. Modify `nums` in-place such that the **first `k` elements** contain the **unique values** in their **original order**.
 2. Return the value `k`.
 
+
 ---
+
 
 ## 🧪 Custom Judge
 
@@ -61,3 +74,21 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 - 1 <= nums.length <= 3 \* 104
 - -100 <= nums[i] <= 100
 - nums is sorted in non-decreasing order.
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)
