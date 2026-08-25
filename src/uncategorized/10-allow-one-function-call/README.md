@@ -1,4 +1,13 @@
-# Allow One Function Call
+# 2666. Allow One Function Call
+
+**Difficulty**: Easy
+**Topics**: JavaScript, Higher-Order Functions
+
+
+---
+
+
+## Problem Statement
 
 Given a function fn, return a new function that is identical to the original function except that it ensures fn is called at most once.
 
@@ -34,3 +43,21 @@ onceFn(4, 6, 8); // undefined, fn was not called
 - 1 <= calls.length <= 10
 - 1 <= calls[i].length <= 100
 - 2 <= JSON.stringify(calls).length <= 1000
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

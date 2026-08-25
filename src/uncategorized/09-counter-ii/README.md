@@ -1,4 +1,13 @@
-# Counter II
+# 2665. Counter II
+
+**Difficulty**: Easy
+**Topics**: JavaScript, Closure
+
+
+---
+
+
+## Problem Statement
 
 Write a function createCounter. It should accept an initial integer init. It should return an object with three functions.
 
@@ -39,3 +48,21 @@ counter.reset(); // 0
 - -1000 <= init <= 1000
 - 0 <= calls.length <= 1000
 - calls[i] is one of "increment", "decrement" and "reset"
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

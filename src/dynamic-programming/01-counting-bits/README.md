@@ -1,4 +1,13 @@
-# Counting Bits
+# 338. Counting Bits
+
+**Difficulty**: Easy
+**Topics**: Dynamic Programming, Bit Manipulation
+
+
+---
+
+
+## Problem Statement
 
 ## Problem
 
@@ -10,7 +19,9 @@ Given an integer `n`, return an array `ans` of length `n + 1` such that:
 
 Do **not** use built-in functions that directly count set bits, such as `__builtin_popcount` in C++.
 
+
 ---
+
 
 ## Example 1
 
@@ -34,7 +45,9 @@ n = 2
 2 → 10     → 1 one
 ```
 
+
 ---
+
 
 ## Example 2
 
@@ -61,7 +74,9 @@ n = 5
 5 → 101    → 2 ones
 ```
 
+
 ---
+
 
 ## Expected Result
 
@@ -75,3 +90,21 @@ For `n = 5`:
 Index:  0  1  2  3  4  5
 Bits:   0  1  1  2  1  2
 ```
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(n)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

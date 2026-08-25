@@ -1,4 +1,13 @@
-# Calculator with Method Chaining
+# 2726. Calculator with Method Chaining
+
+**Difficulty**: Easy
+**Topics**: JavaScript, Object-Oriented Programming
+
+
+---
+
+
+## Problem Statement
 
 Design a Calculator class. The class should provide the mathematical operations of addition, subtraction, multiplication, division, and exponentiation. It should also allow consecutive operations to be performed using method chaining. The Calculator class constructor should accept a number which serves as the initial value of result.
 
@@ -57,3 +66,21 @@ The error should be thrown because we cannot divide by zero.
     actions[i] is one of "Calculator", "add", "subtract", "multiply", "divide", "power", and "getResult"
     First action is always "Calculator"
     Last action is always "getResult"
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

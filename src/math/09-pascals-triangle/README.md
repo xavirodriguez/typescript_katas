@@ -1,4 +1,13 @@
-# Pascal's Triangle
+# 118. Pascal's Triangle
+
+**Difficulty**: Easy
+**Topics**: Array, Dynamic Programming
+
+
+---
+
+
+## Problem Statement
 
 Given an integer numRows, return the first numRows of Pascal's triangle.
 
@@ -17,3 +26,21 @@ Output: [[1]]
 Constraints:
 
     1 <= numRows <= 30
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(n²)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

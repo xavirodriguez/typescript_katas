@@ -1,4 +1,13 @@
-# Memoize
+# 2623. Memoize
+
+**Difficulty**: Medium
+**Topics**: JavaScript
+
+
+---
+
+
+## Problem Statement
 
 Given a function fn, return a memoized version of that function.
 
@@ -62,3 +71,21 @@ fib(5) = 8 // "call"
     actions.length === values.length
     actions[i] is one of "call" and "getCallCount"
     fnName is one of "sum", "factorial" and "fib"
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(n)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

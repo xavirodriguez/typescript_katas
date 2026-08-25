@@ -1,4 +1,13 @@
-# Generate Fibonacci Sequence
+# 2648. Generate Fibonacci Sequence
+
+**Difficulty**: Easy
+**Topics**: JavaScript, Generator
+
+
+---
+
+
+## Problem Statement
 
 Write a generator function that returns a generator object which yields the fibonacci sequence.
 
@@ -27,3 +36,21 @@ Input: callCount = 0
 Output: []
 Explanation: gen.next() is never called so nothing is outputted
 ```
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

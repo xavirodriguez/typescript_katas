@@ -1,4 +1,13 @@
-# 🧗‍♂️ Climbing Stairs
+# 70. Climbing Stairs
+
+**Difficulty**: Easy
+**Topics**: Math, Dynamic Programming, Memoization
+
+
+---
+
+
+## Problem Statement
 
 ## Descripción
 
@@ -9,7 +18,9 @@ Tu objetivo es calcular **de cuántas formas distintas** puedes llegar hasta la 
 
 Este ejercicio es un clásico problema de programación dinámica y se asocia frecuentemente con la sucesión de Fibonacci.
 
+
 ---
+
 
 ## Ejemplos
 
@@ -19,3 +30,21 @@ Este ejercicio es un clásico problema de programación dinámica y se asocia fr
 Input: n = 2;
 Output: 2;
 ```
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

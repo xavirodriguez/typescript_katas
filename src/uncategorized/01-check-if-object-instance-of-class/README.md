@@ -1,4 +1,13 @@
-# Check if Object Instance of Class
+# 2618. Check if Object Instance of Class
+
+**Difficulty**: Medium
+**Topics**: JavaScript
+
+
+---
+
+
+## Problem Statement
 
 Write a function that checks if a given value is an instance of a given class or superclass. For this problem, an object is considered an instance of a given class if that object has access to that class's methods.
 
@@ -32,3 +41,21 @@ Explanation: A date constructor cannot logically be an instance of itself.
 Input: func = () => checkIfInstanceOf(5, Number)
 Output: true
 Explanation: 5 is a Number. Note that the "instanceof" keyword would return false. However, it is still considered an instance of Number because it accesses the Number methods. For example "toFixed()".
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

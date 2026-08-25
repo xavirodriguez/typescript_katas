@@ -1,4 +1,13 @@
-# Apply Transform Over Each Element in Array
+# 2635. Apply Transform Over Each Element in Array
+
+**Difficulty**: Easy
+**Topics**: JavaScript
+
+
+---
+
+
+## Problem Statement
 
 Given an integer array arr and a mapping function fn, return a new array with a transformation applied to each element.
 
@@ -31,3 +40,21 @@ Input: arr = [10,20,30], fn = function constant() { return 42; }
 Output: [42,42,42]
 Explanation: The function always returns 42.
 ```
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(n)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

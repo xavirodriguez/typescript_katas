@@ -1,4 +1,13 @@
-# Length of Last Word
+# 58. Length of Last Word
+
+**Difficulty**: Easy
+**Topics**: String
+
+
+---
+
+
+## Problem Statement
 
 ## Description
 
@@ -32,3 +41,21 @@ Input: s = "luffy is still joyboy"
 Output: 6
 Explanation: The last word is "joyboy" with length 6.
 ```
+
+
+---
+
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+
+---
+
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)
