@@ -1,11 +1,9 @@
 # 2619. Array Prototype Last
 
 **Difficulty**: Easy
-**Topics**: JavaScript
-
+**Topics**: Array, Prototype
 
 ---
-
 
 ## Problem Statement
 
@@ -62,18 +60,14 @@ Because there are no elements, return -1.
 *   `arr` is a valid JSON array
 *   `0 <= arr.length <= 1000`
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

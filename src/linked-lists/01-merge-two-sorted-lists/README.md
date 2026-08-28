@@ -1,11 +1,9 @@
 # 21. Merge Two Sorted Lists
 
 **Difficulty**: Easy
-**Topics**: Linked List, Recursion
-
+**Topics**: Linked List, Two Pointers, Recursion
 
 ---
-
 
 ## Problem Statement
 
@@ -41,18 +39,14 @@ class ListNode {
 }
 ```
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n + m)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

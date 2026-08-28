@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Array, Binary Search
 
-
 ---
-
 
 ## Problem Statement
 
@@ -37,18 +35,14 @@ Input: nums = [1,3,5,6], target = 7
 Output: 4
 ```
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(log n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

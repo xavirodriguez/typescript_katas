@@ -1,11 +1,9 @@
 # 2635. Apply Transform Over Each Element in Array
 
 **Difficulty**: Easy
-**Topics**: JavaScript
-
+**Topics**: Array, Functional Programming
 
 ---
-
 
 ## Problem Statement
 
@@ -41,18 +39,14 @@ Output: [42,42,42]
 Explanation: The function always returns 42.
 ```
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)
 
-
 ---
-
 
 ## Solution
 

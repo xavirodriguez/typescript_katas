@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Dynamic Programming, Bit Manipulation
 
-
 ---
-
 
 ## Problem Statement
 
@@ -91,18 +89,14 @@ Index:  0  1  2  3  4  5
 Bits:   0  1  1  2  1  2
 ```
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
-- **Space Complexity**: O(n)
-
+- **Space Complexity**: O(1)
 
 ---
-
 
 ## Solution
 

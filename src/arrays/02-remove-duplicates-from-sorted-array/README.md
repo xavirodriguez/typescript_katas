@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Array, Two Pointers
 
-
 ---
-
 
 ## Problem Statement
 
@@ -75,18 +73,14 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 - -100 <= nums[i] <= 100
 - nums is sorted in non-decreasing order.
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

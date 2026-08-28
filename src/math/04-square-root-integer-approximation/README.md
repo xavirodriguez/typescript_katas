@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Math, Binary Search
 
-
 ---
-
 
 ## Problem Statement
 
@@ -45,18 +43,14 @@ Avoid using:
 - Improve problem-solving under constraints.
 - Practice writing clean and efficient integer logic.
 
-
 ---
-
 
 ## Complexity
 
-- **Time Complexity**: O(log x)
+- **Time Complexity**: O(log n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

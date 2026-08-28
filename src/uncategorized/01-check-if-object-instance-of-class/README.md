@@ -1,11 +1,9 @@
 # 2618. Check if Object Instance of Class
 
 **Difficulty**: Medium
-**Topics**: JavaScript
-
+**Topics**: JavaScript, Prototype, Recursion
 
 ---
-
 
 ## Problem Statement
 
@@ -42,18 +40,14 @@ Input: func = () => checkIfInstanceOf(5, Number)
 Output: true
 Explanation: 5 is a Number. Note that the "instanceof" keyword would return false. However, it is still considered an instance of Number because it accesses the Number methods. For example "toFixed()".
 
-
 ---
-
 
 ## Complexity
 
-- **Time Complexity**: O(n)
+- **Time Complexity**: O(p)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

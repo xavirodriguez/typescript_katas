@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Math
 
-
 ---
-
 
 ## Problem Statement
 
@@ -35,18 +33,14 @@ Constraints:
 
 Follow up: Could you solve it without converting the integer to a string?
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(log10(n))
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

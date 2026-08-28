@@ -1,11 +1,9 @@
 # 2726. Calculator with Method Chaining
 
 **Difficulty**: Easy
-**Topics**: JavaScript, Object-Oriented Programming
-
+**Topics**: JavaScript, Object-Oriented Programming, Class
 
 ---
-
 
 ## Problem Statement
 
@@ -67,18 +65,14 @@ The error should be thrown because we cannot divide by zero.
     First action is always "Calculator"
     Last action is always "getResult"
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

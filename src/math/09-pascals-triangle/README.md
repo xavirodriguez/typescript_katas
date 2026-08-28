@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Array, Dynamic Programming
 
-
 ---
-
 
 ## Problem Statement
 
@@ -27,18 +25,14 @@ Constraints:
 
     1 <= numRows <= 30
 
-
 ---
-
 
 ## Complexity
 
-- **Time Complexity**: O(n²)
-- **Space Complexity**: O(n²)
-
+- **Time Complexity**: O(numRows²)
+- **Space Complexity**: O(1)
 
 ---
-
 
 ## Solution
 

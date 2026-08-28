@@ -1,11 +1,9 @@
 # 2634. Filter Elements from Array
 
 **Difficulty**: Easy
-**Topics**: JavaScript
-
+**Topics**: Array, Functional Programming
 
 ---
-
 
 ## Problem Statement
 
@@ -52,18 +50,14 @@ Falsey values such as 0 should be filtered out
 - ` 0 <= arr.length <= 1000`
 - ` -109 <= arr[i] <= 109`
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)
 
-
 ---
-
 
 ## Solution
 

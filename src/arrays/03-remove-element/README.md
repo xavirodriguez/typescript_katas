@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Array, Two Pointers
 
-
 ---
-
 
 ## Problem Statement
 
@@ -45,18 +43,14 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 - `0 <= nums[i] <= 50`
 - `0 <= val <= 100`
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Array, Hash Table
 
-
 ---
-
 
 ## Problem Statement
 
@@ -40,18 +38,14 @@ Output: [0,1]
 
 ** Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity? **
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)
 
-
 ---
-
 
 ## Solution
 

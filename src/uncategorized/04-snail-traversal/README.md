@@ -1,11 +1,9 @@
 # 2624. Snail Traversal
 
 **Difficulty**: Medium
-**Topics**: JavaScript, Array, Matrix
-
+**Topics**: Array, Matrix
 
 ---
-
 
 ## Problem Statement
 
@@ -52,18 +50,14 @@ Explanation: 2 multiplied by 2 is 4, and the original array [1,3] has a length o
     1 <= rowsCount <= 250
     1 <= colsCount <= 250
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
-- **Space Complexity**: O(rowsCount * colsCount)
-
+- **Space Complexity**: O(n)
 
 ---
-
 
 ## Solution
 

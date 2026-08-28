@@ -1,11 +1,9 @@
 # 2629. Function Composition
 
 **Difficulty**: Easy
-**Topics**: JavaScript
-
+**Topics**: JavaScript, Higher-Order Functions
 
 ---
-
 
 ## Problem Statement
 
@@ -84,18 +82,14 @@ For empty arrays, the answer is always init.
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

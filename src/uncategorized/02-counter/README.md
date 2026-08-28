@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: JavaScript, Closure
 
-
 ---
-
 
 ## Problem Statement
 
@@ -66,18 +64,14 @@ n = -2
 *   `0 <= calls.length <= 1000`
 *   `calls[i] === "call"`
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

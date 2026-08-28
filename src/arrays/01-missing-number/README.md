@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Array, Hash Table, Math, Bit Manipulation
 
-
 ---
-
 
 ## Problem Statement
 
@@ -48,18 +46,14 @@ n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the
     0 <= nums[i] <= n
     All the numbers of nums are unique.
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

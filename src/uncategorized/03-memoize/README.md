@@ -1,11 +1,9 @@
 # 2623. Memoize
 
 **Difficulty**: Medium
-**Topics**: JavaScript
-
+**Topics**: JavaScript, Closure, Higher-Order Functions
 
 ---
-
 
 ## Problem Statement
 
@@ -72,18 +70,14 @@ fib(5) = 8 // "call"
     actions[i] is one of "call" and "getCallCount"
     fnName is one of "sum", "factorial" and "fib"
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(n)
 
-
 ---
-
 
 ## Solution
 
