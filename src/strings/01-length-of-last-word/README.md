@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: String
 
-
 ---
-
 
 ## Problem Statement
 
@@ -42,18 +40,14 @@ Output: 6
 Explanation: The last word is "joyboy" with length 6.
 ```
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

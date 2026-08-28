@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Hash Table, String, Sorting
 
-
 ---
-
 
 ## Problem Statement
 
@@ -30,18 +28,14 @@ Constraints:
 
 Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

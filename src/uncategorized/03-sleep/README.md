@@ -1,11 +1,9 @@
 # 2621. Sleep
 
 **Difficulty**: Easy
-**Topics**: JavaScript, Promise
-
+**Topics**: JavaScript, Promise, Async/Await
 
 ---
-
 
 ## Problem Statement
 
@@ -97,18 +95,14 @@ function sleepWithoutAsync(millis: number): Promise<void> {
 
 Ambas soluciones son correctas y cumplen con los requisitos del problema. La primera (`async`/`await`) suele ser preferida por su legibilidad en contextos asíncronos más complejos.
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

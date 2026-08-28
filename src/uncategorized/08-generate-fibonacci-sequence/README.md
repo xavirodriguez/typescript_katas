@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: JavaScript, Generator
 
-
 ---
-
 
 ## Problem Statement
 
@@ -37,18 +35,14 @@ Output: []
 Explanation: gen.next() is never called so nothing is outputted
 ```
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

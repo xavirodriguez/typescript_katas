@@ -1,11 +1,9 @@
 # 2666. Allow One Function Call
 
 **Difficulty**: Easy
-**Topics**: JavaScript, Higher-Order Functions
-
+**Topics**: JavaScript, Higher-Order Functions, Closure
 
 ---
-
 
 ## Problem Statement
 
@@ -44,18 +42,14 @@ onceFn(4, 6, 8); // undefined, fn was not called
 - 1 <= calls[i].length <= 100
 - 2 <= JSON.stringify(calls).length <= 1000
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: JavaScript, Closure
 
-
 ---
-
 
 ## Problem Statement
 
@@ -49,18 +47,14 @@ counter.reset(); // 0
 - 0 <= calls.length <= 1000
 - calls[i] is one of "increment", "decrement" and "reset"
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 

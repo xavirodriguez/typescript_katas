@@ -1,11 +1,9 @@
 # 2622. Cache With Time Limit
 
 **Difficulty**: Medium
-**Topics**: JavaScript, Closure
-
+**Topics**: JavaScript, Class, Closure
 
 ---
-
 
 ## Problem Statement
 
@@ -62,18 +60,14 @@ At t=250, count() returns 0 because the cache is empty.
     actions[i] is one of "TimeLimitedCache", "set", "get" and "count"
     First action is always "TimeLimitedCache" and must be executed immediately, with a 0-millisecond delay
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(1)
 - **Space Complexity**: O(n)
 
-
 ---
-
 
 ## Solution
 

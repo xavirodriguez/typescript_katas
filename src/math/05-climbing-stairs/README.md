@@ -3,9 +3,7 @@
 **Difficulty**: Easy
 **Topics**: Math, Dynamic Programming, Memoization
 
-
 ---
-
 
 ## Problem Statement
 
@@ -31,18 +29,14 @@ Input: n = 2;
 Output: 2;
 ```
 
-
 ---
-
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-
 ---
-
 
 ## Solution
 
