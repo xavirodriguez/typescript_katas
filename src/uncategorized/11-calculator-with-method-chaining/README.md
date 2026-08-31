@@ -77,4 +77,3 @@ The error should be thrown because we cannot divide by zero.
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

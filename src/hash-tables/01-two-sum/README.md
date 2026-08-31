@@ -50,4 +50,3 @@ Output: [0,1]
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

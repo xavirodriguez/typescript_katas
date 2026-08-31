@@ -62,4 +62,3 @@ Explanation: 2 multiplied by 2 is 4, and the original array [1,3] has a length o
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

@@ -59,4 +59,3 @@ counter.reset(); // 0
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

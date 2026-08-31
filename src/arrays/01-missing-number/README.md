@@ -58,4 +58,3 @@ n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

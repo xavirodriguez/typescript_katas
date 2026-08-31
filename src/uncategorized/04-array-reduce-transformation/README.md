@@ -94,4 +94,3 @@ For empty arrays, the answer is always init.
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

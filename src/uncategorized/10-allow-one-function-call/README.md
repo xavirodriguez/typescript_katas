@@ -54,4 +54,3 @@ onceFn(4, 6, 8); // undefined, fn was not called
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)
