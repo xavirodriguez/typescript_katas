@@ -71,6 +71,5 @@ At t=250, count() returns 0 because the cache is empty.
 
 ## Solution
 
-- [Solution A](./solution-a.ts)
-- [Solution B](./solution-b.ts)
-- [solution.test.ts](./solution.test.ts)
+- [solution-a.ts](./solution-a.ts)
+- [solution-b.ts](./solution-b.ts)

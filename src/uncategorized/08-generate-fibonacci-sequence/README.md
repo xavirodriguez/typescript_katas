@@ -47,4 +47,3 @@ Explanation: gen.next() is never called so nothing is outputted
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

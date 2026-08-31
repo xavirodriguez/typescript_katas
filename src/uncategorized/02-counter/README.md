@@ -76,4 +76,3 @@ n = -2
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

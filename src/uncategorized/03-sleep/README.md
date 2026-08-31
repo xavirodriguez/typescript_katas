@@ -107,4 +107,3 @@ Ambas soluciones son correctas y cumplen con los requisitos del problema. La pri
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

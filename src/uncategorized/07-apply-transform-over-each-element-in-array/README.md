@@ -51,4 +51,3 @@ Explanation: The function always returns 42.
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

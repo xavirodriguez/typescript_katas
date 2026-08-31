@@ -62,4 +62,3 @@ Falsey values such as 0 should be filtered out
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

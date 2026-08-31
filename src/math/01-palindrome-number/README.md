@@ -45,4 +45,3 @@ Follow up: Could you solve it without converting the integer to a string?
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

@@ -72,4 +72,3 @@ Because there are no elements, return -1.
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

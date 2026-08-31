@@ -52,4 +52,3 @@ Explanation: 5 is a Number. Note that the "instanceof" keyword would return fals
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)

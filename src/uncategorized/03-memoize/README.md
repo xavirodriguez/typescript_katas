@@ -82,4 +82,3 @@ fib(5) = 8 // "call"
 ## Solution
 
 - [solution.ts](./solution.ts)
-- [solution.test.ts](./solution.test.ts)
