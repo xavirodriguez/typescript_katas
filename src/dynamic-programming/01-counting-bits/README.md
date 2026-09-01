@@ -3,100 +3,61 @@
 **Difficulty**: Easy
 **Topics**: Dynamic Programming, Bit Manipulation
 
+
 ---
+
 
 ## Problem Statement
 
-## Problem
-
-Given an integer `n`, return an array `ans` of length `n + 1` such that:
-
-> `ans[i]` is the number of `1`s in the binary representation of `i`, for every `0 <= i <= n`.
-
-### Constraint
-
-Do **not** use built-in functions that directly count set bits, such as `__builtin_popcount` in C++.
+Given an integer `n`, return an array `ans` of length `n + 1` such that for each `i` (`0 <= i <= n`), `ans[i]` is the **number of 1's** in the binary representation of `i`.
 
 
 ---
 
 
-## Example 1
+## Examples
 
-**Input:**
+### Example 1:
 
-```text
-n = 2
-```
+- **Input**: `n = 2`
+- **Output**: `[0,1,1]`
+- **Explanation**:
+  - 0 --> 0
+  - 1 --> 1
+  - 2 --> 10
 
-**Output:**
+### Example 2:
 
-```text
-[0, 1, 1]
-```
-
-**Explanation:**
-
-```text
-0 → 0      → 0 ones
-1 → 1      → 1 one
-2 → 10     → 1 one
-```
-
-
----
-
-
-## Example 2
-
-**Input:**
-
-```text
-n = 5
-```
-
-**Output:**
-
-```text
-[0, 1, 1, 2, 1, 2]
-```
-
-**Explanation:**
-
-```text
-0 → 0      → 0 ones
-1 → 1      → 1 one
-2 → 10     → 1 one
-3 → 11     → 2 ones
-4 → 100    → 1 one
-5 → 101    → 2 ones
-```
+- **Input**: `n = 5`
+- **Output**: `[0,1,1,2,1,2]`
+- **Explanation**:
+  - 0 --> 0
+  - 1 --> 1
+  - 2 --> 10
+  - 3 --> 11
+  - 4 --> 100
+  - 5 --> 101
 
 
 ---
 
 
-## Expected Result
+## Constraints
 
-Return an array containing the number of set bits (`1`s) for every integer from `0` to `n`.
+- `0 <= n <= 10⁵`
 
-### Example
-
-For `n = 5`:
-
-```text
-Index:  0  1  2  3  4  5
-Bits:   0  1  1  2  1  2
-```
 
 ---
+
 
 ## Complexity
 
 - **Time Complexity**: O(n)
-- **Space Complexity**: O(1)
+- **Space Complexity**: O(n)
+
 
 ---
+
 
 ## Solution
 

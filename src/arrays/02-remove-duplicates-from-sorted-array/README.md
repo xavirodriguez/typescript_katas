@@ -3,84 +3,59 @@
 **Difficulty**: Easy
 **Topics**: Array, Two Pointers
 
+
 ---
+
 
 ## Problem Statement
 
-## 📘 Description
+Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates **in-place** such that each unique element appears only **once**. The **relative order** of the elements should be kept the **same**. Then return _the number of unique elements in_ `nums`.
 
-Given a **sorted** integer array `nums` in **non-decreasing order**, your task is to **remove duplicates in-place** so that each **unique element appears only once**.
+To get accepted, you need to do the following things:
 
-- The **relative order** of the elements must be preserved.
-- You must modify the input array `nums` directly.
-- Return the number of **unique elements**, denoted as `k`.
-
-> Only the first `k` elements of `nums` will be valid after the operation.  
-> Elements beyond `k` can be ignored and can hold any value.
+1. Change the array `nums` such that the first `k` elements of `nums` contain the unique elements in the order they were present in `nums` initially. The remaining elements of `nums` are not important as well as the size of `nums`.
+2. Return `k`.
 
 
 ---
 
 
-## ✅ Requirements
+## Examples
 
-To successfully pass the test, your solution must:
+### Example 1:
 
-1. Modify `nums` in-place such that the **first `k` elements** contain the **unique values** in their **original order**.
-2. Return the value `k`.
+- **Input**: `nums = [1,1,2]`
+- **Output**: `2, nums = [1,2,_]`
+- **Explanation**: Your function should return `k = 2`, with the first two elements of `nums` being `1` and `2` respectively. It does not matter what you leave beyond the returned `k` (hence they are underscores).
+
+### Example 2:
+
+- **Input**: `nums = [0,0,1,1,1,2,2,3,3,4]`
+- **Output**: `5, nums = [0,1,2,3,4,_,_,_,_,_]`
+- **Explanation**: Your function should return `k = 5`, with the first five elements of `nums` being `0`, `1`, `2`, `3`, and `4` respectively. It does not matter what you leave beyond the returned `k`.
+
+
+---
+
+
+## Constraints
+
+- `1 <= nums.length <= 3 * 10⁴`
+- `-100 <= nums[i] <= 100`
+- `nums` is sorted in **non-decreasing** order.
 
 
 ---
 
-
-## 🧪 Custom Judge
-
-Your implementation will be validated using the following logic:
-
-```java
-int[] nums = [...];             // Input array
-int[] expectedNums = [...];     // Expected output (first k elements)
-
-int k = removeDuplicates(nums); // Call your implementation
-
-assert k == expectedNums.length;
-for (int i = 0; i < k; i++) {
-    assert nums[i] == expectedNums[i];
-}
-```
-
-## Example 1:
-
-```
-Input: nums = [1,1,2]
-Output: 2, nums = [1,2,_]
-Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
-It does not matter what you leave beyond the returned k (hence they are underscores).
-```
-
-## Example 2:
-
-```
-Input: nums = [0,0,1,1,1,2,2,3,3,4]
-Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
-Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
-It does not matter what you leave beyond the returned k (hence they are underscores).
-```
-
-## Constraints:
-
-- 1 <= nums.length <= 3 \* 104
-- -100 <= nums[i] <= 100
-- nums is sorted in non-decreasing order.
-
----
 
 ## Complexity
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
+
 ---
+
 
 ## Solution
 

@@ -3,54 +3,54 @@
 **Difficulty**: Easy
 **Topics**: Math, Binary Search
 
+
 ---
+
 
 ## Problem Statement
 
-## Statement
+Given a non-negative integer `x`, return **the square root of `x` rounded down** to the nearest integer. The returned integer should be **non-negative** as well.
 
-Given a non-negative integer `x`, return **the square root of `x` rounded down** to the nearest integer.  
-The result must also be a non-negative integer.
+You must not use any built-in exponent function or operator, such as `pow(x, 0.5)` or `x ** 0.5`.
 
-📌 **Restrictions:**
 
-- Do **not** use any built-in exponentiation functions or operators.  
-  (e.g., `pow(x, 0.5)`, `x ** 0.5`, or similar).
+---
 
-## ✍️ Examples
 
-Input: x = 4
-Output: 2
-Explanation: sqrt(4) = 2 → return 2
+## Examples
 
-Input: x = 8
-Output: 2
-Explanation: sqrt(8) ≈ 2.828 → return 2
+### Example 1:
 
-## 🔒 Constraints
+- **Input**: `x = 4`
+- **Output**: `2`
+- **Explanation**: The square root of 4 is 2, so we return 2.
+
+### Example 2:
+
+- **Input**: `x = 8`
+- **Output**: `2`
+- **Explanation**: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
+
+
+---
+
+
+## Constraints
 
 - `0 <= x <= 2³¹ - 1`
 
-## 🚫 Forbidden
-
-Avoid using:
-
-- `**`, `pow()`, `sqrt()`, or equivalent built-in methods.
-
-## ✅ Goals
-
-- Reinforce binary search and edge case handling.
-- Improve problem-solving under constraints.
-- Practice writing clean and efficient integer logic.
 
 ---
+
 
 ## Complexity
 
-- **Time Complexity**: O(log n)
+- **Time Complexity**: O(log x)
 - **Space Complexity**: O(1)
 
+
 ---
+
 
 ## Solution
 
