@@ -1,4 +1,11 @@
-# Kata 01 – Merge Two Sorted Lists
+# 21. Merge Two Sorted Lists
+
+**Difficulty**: Easy
+**Topics**: Linked List, Two Pointers, Recursion
+
+---
+
+## Problem Statement
 
 ## 📘 Problem Statement
 
@@ -10,7 +17,9 @@ Your task is to **merge the two lists into one sorted linked list** by **splicin
 
 📤 Return the **head node** of the merged linked list.
 
+
 ---
+
 
 ## 🧪 Example
 
@@ -29,3 +38,17 @@ class ListNode {
   }
 }
 ```
+
+---
+
+## Complexity
+
+- **Time Complexity**: O(n + m)
+- **Space Complexity**: O(1)
+
+---
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

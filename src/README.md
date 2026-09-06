@@ -55,6 +55,8 @@ Usa esta lista como checklist de progreso: marca cada kata a medida que la resue
 -  [Allow One Function Call](uncategorized/10-allow-one-function-call)
 -  [Calculator with Method Chaining](uncategorized/11-calculator-with-method-chaining)
 
+
 ---
+
 
 > 💡 Sugerencia de ruta de aprendizaje: `arrays` → `hash-tables` → `strings` → `linked-lists` → `math` / `dynamic-programming` → `uncategorized` (conceptos variados de JavaScript/TypeScript funcional y estructuras de datos).

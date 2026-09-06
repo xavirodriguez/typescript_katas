@@ -1,4 +1,11 @@
-# Cache With Time Limit
+# 2622. Cache With Time Limit
+
+**Difficulty**: Medium
+**Topics**: JavaScript, Class, Closure
+
+---
+
+## Problem Statement
 
 Write a class that allows getting and setting key-value pairs, however a time until expiration is associated with each key.
 
@@ -52,3 +59,18 @@ At t=250, count() returns 0 because the cache is empty.
     0 <= timeDelays[i] <= 1450
     actions[i] is one of "TimeLimitedCache", "set", "get" and "count"
     First action is always "TimeLimitedCache" and must be executed immediately, with a 0-millisecond delay
+
+---
+
+## Complexity
+
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(n)
+
+---
+
+## Solution
+
+- [Solution A](./solution-a.ts)
+- [Solution B](./solution-b.ts)
+- [solution.test.ts](./solution.test.ts)

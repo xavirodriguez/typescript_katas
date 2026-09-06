@@ -1,4 +1,11 @@
-# Remove Element
+# 27. Remove Element
+
+**Difficulty**: Easy
+**Topics**: Array, Two Pointers
+
+---
+
+## Problem Statement
 
 ## Problem Description
 
@@ -35,3 +42,17 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 - `0 <= nums.length <= 100`
 - `0 <= nums[i] <= 50`
 - `0 <= val <= 100`
+
+---
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+---
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

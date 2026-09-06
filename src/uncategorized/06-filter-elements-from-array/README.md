@@ -1,4 +1,11 @@
-# Filter Elements from Array
+# 2634. Filter Elements from Array
+
+**Difficulty**: Easy
+**Topics**: Array, Functional Programming
+
+---
+
+## Problem Statement
 
 Given an integer array arr and a filtering function fn, return a filtered array **filteredArr**.
 
@@ -34,7 +41,9 @@ In this case, the function removes elements not at index 0
 **Explanation:**
 Falsey values such as 0 should be filtered out
 
+
 ---
+
 
 ### Constraints:
 
@@ -42,3 +51,15 @@ Falsey values such as 0 should be filtered out
 - ` -109 <= arr[i] <= 109`
 
 ---
+
+## Complexity
+
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(n)
+
+---
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)

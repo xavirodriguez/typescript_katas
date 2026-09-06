@@ -1,4 +1,11 @@
-# Search Insert Position
+# 35. Search Insert Position
+
+**Difficulty**: Easy
+**Topics**: Array, Binary Search
+
+---
+
+## Problem Statement
 
 ## 📘 Description
 
@@ -27,3 +34,17 @@ Example 3:
 Input: nums = [1,3,5,6], target = 7
 Output: 4
 ```
+
+---
+
+## Complexity
+
+- **Time Complexity**: O(log n)
+- **Space Complexity**: O(1)
+
+---
+
+## Solution
+
+- [solution.ts](./solution.ts)
+- [solution.test.ts](./solution.test.ts)
